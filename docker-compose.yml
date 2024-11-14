@@ -6,8 +6,6 @@ services:
       - COQUI_TOS_AGREED=1
     ports:
       - "8820:80"
-    volumes:
-      - ./audios:/app/audios
 
   python_app:
     container_name: python_app
