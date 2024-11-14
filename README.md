@@ -81,3 +81,18 @@ $ cd xtts-streaming-server/test
 $ python -m pip install -r requirements.txt
 $ python test_streaming.py
 ```
+
+
+## run docker compose
+
+	docker compose up
+
+esperar a que carge el modelo
+
+	docker exec -it python_app python demo.py
+	
+arrancar en http://localhost:3009/
+
+
+
+
