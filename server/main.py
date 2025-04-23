@@ -28,7 +28,7 @@ if os.path.exists(custom_model_path) and os.path.isfile(custom_model_path + "/co
     print("Loading custom model from", model_path, flush=True)
 else:
     print("Loading default model", flush=True)
-    model_name = "tts_models/multilingual/multi-dataset/xtts_v2"
+    model_name = "tts_models/es/mai/tacotron2-DDC"
     print("Downloading XTTS Model:", model_name, flush=True)
     ModelManager().download_model(model_name)
     model_path = os.path.join(get_user_data_dir("tts"), model_name.replace("/", "--"))
